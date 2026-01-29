@@ -11,10 +11,8 @@
       background: linear-gradient(135deg, #fff3e6, #ffe0cc);
       color: #333;
       display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      text-align: center;
+      flex-direction: column;   /* 👈 CLAVE */
+      min-height: 100vh;        /* 👈 en vez de height */
     }
     .box {
       background: white;
@@ -24,6 +22,7 @@
       max-width: 400px;
       display: flex;
       flex-direction: column;
+      margin:auto;
     }
     .btn {
       margin-top: 20px;
